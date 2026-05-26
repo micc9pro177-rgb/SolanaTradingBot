@@ -20,6 +20,13 @@ MAX_RETRIES = int(os.getenv("MAX_RETRIES", "3"))
 BUY_AMOUNTS = [2, 4, 5, 7, 10]
 SELL_PERCENTAGES = [100, 75, 50, 25]
 
+# ========== قائمة المستخدمين المسموح لهم (Whitelist) ==========
+# ضع معرفات المستخدمين (User IDs) الذين تسمح لهم باستخدام البوت
+ALLOWED_USERS = [
+    7013786917,  # 👈 ضع معرفك أنت هنا
+957098098,  # 👈 ضع معرف صديقك هنا (أزل علامة # وأضف الرقم)
+]
+
 # إعدادات التسجيل
 logging.basicConfig(
     level=logging.INFO,
